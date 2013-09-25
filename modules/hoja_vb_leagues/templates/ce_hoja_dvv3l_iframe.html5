@@ -1,0 +1,27 @@
+<?php
+	$link = "https://dvv.sams-server.de/index.xhtml?LeaguePresenter.view=" . $this->hoja_vb_dvv3l_option
+				."&LeaguePresenter.leagueId="
+				.$this->hoja_vb_dvv3l_league;
+
+	$width = unserialize ( $this->hoja_vb_width );
+	$width = $width['value'] . $width['unit'];
+	$height = unserialize ( $this->hoja_vb_height );
+	$height = $height['value'] . $height['unit'];	
+?>
+<?php if ( $this->headline ) : ?>
+<<?= $this->hl ?>><?= $this->headline ?></<?= $this->hl ?>>
+<?php endif; ?>
+<iframe
+	class="<?= $this->class ?>"
+    src="<?= $link ?>"
+	style="<?= $this->style ?>; width: <?= $width?>; height: <?= $height ?>;" 
+	<?= $this->cssID ?>
+>
+
+<p>Ihr Browser zeigt leider keine eingebetteten Frames an.</p>
+  <p>Sie finden die gewünschte Tabelle unter
+    <a target="_blank" href="<?= $link ?>"><?= $link ?></a>
+   </p>
+  </iframe>
+
+  <p>Der Ergebnisdienst wird vom SAMS-Server des <a href="http://dvv-volleyball.de" target="_blank">DVV</a> bereitgestellt und ist nicht Bestandteil dieser Webseite!.</p>
