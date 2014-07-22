@@ -16,7 +16,7 @@ $GLOBALS['TL_LANG']['tl_content']['hoja_vb_wvv_option_labels'] = array (
 
 
 $GLOBALS['TL_LANG']['tl_content']['hoja_vb_width'] = array ('Breite', 'Geben Sie die Breite des anzuzeigenden IFrames an.');
-$GLOBALS['TL_LANG']['tl_content']['hoja_vb_height'] = array ('Breite', 'Geben Sie die Höhre des anzuzeigenden IFrames an.');
+$GLOBALS['TL_LANG']['tl_content']['hoja_vb_height'] = array ('Höhe', 'Geben Sie die Höhre des anzuzeigenden IFrames an.');
 
 $GLOBALS['TL_LANG']['tl_content']['hoja_vb_dvv3l_league'] = array ('DVV 3L Staffel', 'Geben Sie die ID der gewünschten Staffel der Dritten Liga auf dem Sams-Server ein. Die ID können Sie über die Seite https://dvv.sams-server.de/ herausfinden.');
 
