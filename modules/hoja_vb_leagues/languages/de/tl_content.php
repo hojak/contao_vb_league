@@ -24,7 +24,8 @@ $GLOBALS['TL_LANG']['tl_content']['hoja_vb_dvv3l_option'] = array ('Darstellungs
 $GLOBALS['TL_LANG']['tl_content']['hoja_vb_dvv3l_option_labels'] = array (
 	'matchDays' => "Spieltage",
 	'resultTable' => "Tabelle",
-	'previewReview' => "Vorschau/Rückschau"
+	'crossTable' => "Kreusztabelle",
+	'teamOverview' => "Mannschaften",
 );
 
 

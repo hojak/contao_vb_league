@@ -24,7 +24,8 @@ $GLOBALS['TL_LANG']['tl_content']['hoja_vb_dvv3l_option'] = array ('display opti
 $GLOBALS['TL_LANG']['tl_content']['hoja_vb_dvv3l_option_labels'] = array (
 	'matchDays' => "game days",
 	'resultTable' => "standings",
-	'previewReview' => "preview / review"
+	'crossTable' => "cross table",
+	'teamOverview' => "team overview",
 );
 
 
